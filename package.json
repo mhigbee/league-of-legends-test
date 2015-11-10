@@ -1,0 +1,25 @@
+{
+  "name": "league-of-legends",
+  "version": "1.0.0",
+  "description": "League of Legends app.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mhigbee/league-of-legends-test"
+  },
+  "author": "Matt Higbee",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mhigbee/league-of-legends-test/issues"
+  },
+  "homepage": "https://github.com/mhigbee/league-of-legends-test",
+  "dependencies": {
+    "express": "^4.13.0",
+    "morgan": "^1.6.0",
+    "serve-static": "^1.10.0"
+  }
+}
